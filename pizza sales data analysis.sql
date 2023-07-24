@@ -169,8 +169,8 @@ select name_of_the_day,
   round(sum(total_price),0) as revenue_by_day
   from pizzadata
   group by 1
-  order by 2 desc; /* most of the orders are placed in Friday(3538) and the least are in Tuesday(2973), subsequently Friday is the most
-					profit generating day(136074) and Tuesday is the least(114134)*/
+  order by 2 desc; /* most of the orders are placed in Friday(3538) and the least are in Sunday(2624), subsequently Friday is the most
+					profit generating day(136074) and Sunday is the least(99203)*/
 
 
  
@@ -195,7 +195,7 @@ group by 1;
  count(distinct order_id) as order_count
  from pizzadata
  group by 1
- order by 2 desc;  /*most of the order are made in June month(1773) whereas the least is in October(1646) */
+ order by 2 desc;  /*most of the order are made in July month(1935) whereas the least is in October(1646) */
  
 
 
