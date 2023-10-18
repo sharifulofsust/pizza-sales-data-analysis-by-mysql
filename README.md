@@ -1,5 +1,8 @@
 # pizza-sales-data-analysis-by-mysql
 
+![image](https://github.com/sharifulofsust/pizza-sales-data-analysis-by-mysql/assets/140061077/d23f173a-3930-4571-a94c-1ba4e5c60155)
+
+
 
 At first we load the dataset in excel and then converted the format from xlsx to csv.
 After that we load the dataset in mysql
